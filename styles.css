@@ -1,0 +1,26 @@
+
+ body {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  background: url("./img/bg.jpg");
+  min-height: 100vh;
+  background-size: 100vw 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+canvas {
+  border: 3px solid black ;
+  background: linear-gradient(rgb(170,236,170),rgb(236,236,167));
+}
+.name{
+    font-size: 250%;
+    position: absolute;
+    margin-top: -530px;
+    margin-left: 150 px;
+    color:aquamarine ;
+}
